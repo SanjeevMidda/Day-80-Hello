@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    padding: 30px;
+    border: 1px solid black;
+    transition: box-shadow 0.3s;
+}
+
+h1:hover{
+    box-shadow: 1px 5px 5px red;
+}
